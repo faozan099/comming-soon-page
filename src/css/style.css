@@ -107,7 +107,7 @@ article {
 
 button {
     position: absolute;
-    top: 1px;
+    top: 0px;
     right: 40px;
     padding: 13px 28px;
     background: var(--Gradient-2);
