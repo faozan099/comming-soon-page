@@ -91,7 +91,6 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 48px;
 }
 
 .form input {
@@ -103,7 +102,7 @@ article {
     background-color: var(--Gradient-1);
     border-color: var(--Primary-Desaturated-Red);
     font-size: 16px;
-    color: blue;
+    color: var(--Primary-Desaturated-Red);
 }
 
 button {
@@ -116,7 +115,25 @@ button {
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.error{
+    position: absolute;
+    top: 12px;
+    right: 120px;
+    display: none;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#alert{
+    padding: 12px 0 48px 48px;
+}
+
 
 @media (min-width: 1240px) {
     main {
