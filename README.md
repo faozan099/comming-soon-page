@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL here](https://comming-soon-page-v2.netlify.app/)
+- Live Site URL: https://comming-soon-page-v2.netlify.app/
 
 ## My process
 
@@ -61,5 +61,5 @@ button:hover{
 
 ## Author
 
-- Frontend Mentor - faozan099(https://www.frontendmentor.io/profile/faozan099)
+- Frontend Mentor - [faozan099](https://www.frontendmentor.io/profile/faozan099)
 - LinkedIn - [Muhammad Faozan](www.linkedin.com/in/muhammad-faozan)
