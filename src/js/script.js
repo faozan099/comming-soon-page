@@ -1,14 +1,13 @@
 let email = document.getElementById('email');
-let alert = document.getElementById("alert");
+let alertMassege = document.getElementById("alert");
 
 function validateEmail() {
   if (!email.value === "" || email.value.includes("@")) {
-    console.log("berhail")
+    alert("Thank you for following our page. we will update you with further information")
     window.location.reload()
   } else {
     document.querySelector(".error").style.display = "inline-block";
-    alert.innerHTML = "Please provide a valid email";
-    alert.style.color = "red";
-    console.log("gagal")
+    alertMassege.innerHTML = "Please provide a valid email";
+    alertMassege.style.color = "red";
   }
 }
