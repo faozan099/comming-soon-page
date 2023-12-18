@@ -62,4 +62,4 @@ button:hover{
 ## Author
 
 - Frontend Mentor - [faozan099](https://www.frontendmentor.io/profile/faozan099)
-- LinkedIn - [https://Muhammad Faozan](www.linkedin.com/in/muhammad-faozan)
+- LinkedIn - [Muhammad Faozan](https://www.linkedin.com/in/muhammad-faozan)
